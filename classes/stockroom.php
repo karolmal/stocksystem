@@ -15,7 +15,7 @@ require 'product.php';
 
         $this->product = $product;
 
-        $this->$quantity = $quantity;
+        $this->quantity = $quantity;
 
     }
 
@@ -27,6 +27,7 @@ $carsinstock = (array)new StockRoom($car, 2);
 $computersinstock = (array)new StockRoom($computer,5);
 
 
-var_dump($knifesinstock);
+
+
 
 

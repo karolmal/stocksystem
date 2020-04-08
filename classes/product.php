@@ -26,8 +26,8 @@
 
  }
 
-$knife = (array)new Product(1, 'Knife', 'Kitchen', 9.99);
+$knife = new Product(1, 'Knife', 'Kitchen', 9.99);
 
-$car = (array)new Product(2, 'Car', 'Vehicle', 34.9999);
+$car = new Product(2, 'Car', 'Vehicle', 34.9999);
 
-$computer = (array)new Product(3, 'computer', 'IT', 1000.00);
+$computer = new Product(3, 'computer', 'IT', 1000.00);
